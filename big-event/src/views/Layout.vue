@@ -17,6 +17,7 @@ import { useUserInfoStore } from "@/stores/userinfo.js";
 const userInfoStore = useUserInfoStore();
 import { ref } from "vue";
 
+
 //获取个人信息
 const getUserInf = async () => {
   let result = await userInfoGetService();
